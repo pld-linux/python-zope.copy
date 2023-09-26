@@ -9,12 +9,12 @@
 Summary:	Pluggable object copying mechanism
 Summary(pl.UTF-8):	Mechanizm kopiowania obiektów z obsługą wtyczek
 Name:		python-%{module}
-Version:	4.2
+Version:	4.3
 Release:	1
 License:	ZPL v2.1
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/z/zope.copy/zope.copy-%{version}.tar.gz
-# Source0-md5:	4111cf208f0cb7cd6dfad742abf97cbe
+# Source0-md5:	f4d53472086a1261c7f1ccb6738b9db8
 URL:		https://www.zope.dev/
 %if %{with python2}
 BuildRequires:	python >= 1:2.7
@@ -29,8 +29,8 @@ BuildRequires:	python-zope.testrunner
 %endif
 %endif
 %if %{with python3}
-BuildRequires:	python3 >= 1:3.4
-BuildRequires:	python3-devel >= 1:3.4
+BuildRequires:	python3 >= 1:3.5
+BuildRequires:	python3-devel >= 1:3.5
 BuildRequires:	python3-setuptools
 %if %{with tests}
 BuildRequires:	python3-zope.component
@@ -62,7 +62,7 @@ obsługą wtyczek.
 Summary:	Pluggable object copying mechanism
 Summary(pl.UTF-8):	Mechanizm kopiowania obiektów z obsługą wtyczek
 Group:		Libraries/Python
-Requires:	python3-modules >= 1:3.4
+Requires:	python3-modules >= 1:3.5
 
 %description -n python3-%{module}
 This package provides a pluggable mechanism for copying persistent
