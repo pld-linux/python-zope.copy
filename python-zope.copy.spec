@@ -10,7 +10,7 @@ Summary:	Pluggable object copying mechanism
 Summary(pl.UTF-8):	Mechanizm kopiowania obiektów z obsługą wtyczek
 Name:		python-%{module}
 Version:	4.3
-Release:	1
+Release:	2
 License:	ZPL v2.1
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/z/zope.copy/zope.copy-%{version}.tar.gz
